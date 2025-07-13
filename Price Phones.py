@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
-#db=pd.read_csv(r"C:\Users\Jean\Desktop\JeanXDXDXD\Universidad\Python\ndtv_data_final.csv")
+#Importamos los datos
 db=pd.read_csv("ndtv_data_final.csv")
 #Variable categorica a numerica
 db["modelos_num"]=pd.factorize(db["Brand"])[0]
