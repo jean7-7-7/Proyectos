@@ -2,7 +2,7 @@ import pandas as ps
 import matplotlib.pyplot as plt
 import missingno as msno
 #Cargamos el dataset 
-var= "/storage/emulated/0/Download/archive/googleplaystore.csv"
+var= "googleplaystore.csv"
 db= ps.read_csv(var, index_col= False)
 
 #Se buscan valores nulos, se eliminan y se sustituyen valores extraños
@@ -20,7 +20,7 @@ print(df.head(10))
 
 #Agregamos y unimos la siguente tabla para un analisis mas preciso reseñas
 
-db_reviews= ps.read_csv("/storage/emulated/0/Download/archive/googleplaystore_user_reviews.csv",index_col=False).dropna()
+db_reviews= ps.read_csv("googleplaystore_user_reviews.csv",index_col=False).dropna()
 
 join= ps.merge(db_drop,db_reviews, on= "App")
 
