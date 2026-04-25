@@ -3,7 +3,7 @@
 This project evaluates and compares the surrounding urban environment of Google and Microsoft offices worldwide.  
 Using **Power BI** and **Python (embedded in Power Query)**, it retrieves nearby Points of Interest (POIs) from OpenStreetMap, calculates weighted scores based on distance, and presents an interactive dashboard.
 
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](/Headquarters/image.png)
 
 ## 📌 Overview
 
@@ -39,4 +39,4 @@ A higher score means more and closer amenities within a 3 km radius.
 | **Pandas / Requests** | Python libraries used |
 | **GitHub** | Portfolio hosting |
 
-## 📂 Repository Structure
+
